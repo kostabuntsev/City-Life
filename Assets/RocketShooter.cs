@@ -7,7 +7,7 @@ public class RocketShooter : MonoBehaviour
 {
     public Camera fpsCam;
     public GameObject AimingPoint;
-    public GameObject CannonBullet;
+    public GameObject Bullet;
 
     // Update is called once per frame
     void Update()
@@ -16,7 +16,7 @@ public class RocketShooter : MonoBehaviour
         {
 
             // bullet position
-            GameObject bulletObject = Instantiate(CannonBullet);
+            GameObject bulletObject = Instantiate(Bullet);
             bulletObject.transform.position = AimingPoint.transform.position;
 
             // initial force

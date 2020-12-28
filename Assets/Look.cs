@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class Look : MonoBehaviour
 {
-    public Camera camera;
-    public GameObject gun;
+    public GameObject AimingPoint;
+    public GameObject RocketShooter;
     public float mouseSensitivity = 200f;
 
     public Transform playerBody;
@@ -29,5 +29,8 @@ public class Look : MonoBehaviour
 
         transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
         playerBody.Rotate(Vector3.up * mouseX);
+
+        RocketShooter.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
+        AimingPoint.transform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
     }
 }
