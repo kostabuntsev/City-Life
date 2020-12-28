@@ -68,6 +68,7 @@
     <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\Look.cs" />
     <Compile Include="Assets\PlayerMovemnt.cs" />
+    <Compile Include="Assets\RocketShooter.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />

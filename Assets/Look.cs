@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class Look : MonoBehaviour
 {
+    public Camera camera;
+    public GameObject gun;
     public float mouseSensitivity = 200f;
 
     public Transform playerBody;
