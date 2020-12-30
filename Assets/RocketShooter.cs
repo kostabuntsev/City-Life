@@ -22,7 +22,6 @@ public class RocketShooter : MonoBehaviour
             // initial force
             Rigidbody rb = bulletObject.GetComponent<Rigidbody>();
             rb.AddForce(fpsCam.transform.forward * 20, ForceMode.Impulse);
-            Debug.Log(fpsCam.transform.forward);
         }
     }
 }
