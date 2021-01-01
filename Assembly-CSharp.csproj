@@ -63,13 +63,13 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Bazooka.cs" />
     <Compile Include="Assets\CannonShooting.cs" />
     <Compile Include="Assets\EffectExamples\Misc Effects\Scripts\SpawnEffect.cs" />
     <Compile Include="Assets\Explosion.cs" />
     <Compile Include="Assets\Gun.cs" />
     <Compile Include="Assets\Look.cs" />
     <Compile Include="Assets\PlayerMovemnt.cs" />
-    <Compile Include="Assets\RocketShooter.cs" />
     <Compile Include="Assets\Shared\Ramps\Runtime\RampAsset.cs" />
     <Compile Include="Assets\Shared\Scripts\AdjustTimeScale.cs" />
     <Compile Include="Assets\Shared\Scripts\ProximityActivate.cs" />

@@ -26,8 +26,6 @@ public class CannonShooting : MonoBehaviour
             // initial force
             Rigidbody rb = bulletObject.GetComponent<Rigidbody>();
             rb.AddForce(-AimingPoint.transform.forward * 20, ForceMode.Impulse);
-            //Debug.Log(transform.forward * 100);
-
         }
     }
 }
