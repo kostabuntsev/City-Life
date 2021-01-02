@@ -15,7 +15,7 @@ GameObject:
   - component: {fileID: 8512939835160060744}
   - component: {fileID: -7938597678924524011}
   m_Layer: 0
-  m_Name: Rocket Shooter Bullet
+  m_Name: Bazooka Grenade
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
